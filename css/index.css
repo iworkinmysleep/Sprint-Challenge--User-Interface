@@ -144,3 +144,116 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    top: 0;
+   }
+header img{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+header nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80%;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+}
+.middle-content .boxes .box:nth-child(1) {
+    background-color:teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color:gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color:cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color:coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color:crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color:forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color:darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color:hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color:indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color:dodgerblue;
+}
+
+/* About page css */
+
+.city{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.aboutSection{
+    border-bottom: dotted;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.aboutCardSection{
+    
+    margin-top: 30px; 
+    display: flex;
+    flex-wrap: wrap;   
+    margin-right: 40px ;
+}
+
+.aboutCard{
+    width: 45%; 
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: dotted;
+}
+
+.btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 140px;
+    height: 30px;
+    position: relative;
+    font-size: 1rem;  
+}
+
+.btn:hover{
+    background-color:darkviolet;
+}
+
+
+.work{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.aboutCardSection .aboutCard img{
+    width:100%;
+}
+
+.aboutCardSection .aboutCard h3{
+    padding:10px;
+}
