@@ -202,3 +202,58 @@ header nav a{
 
 /* About page css */
 
+.city{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.aboutSection{
+    border-bottom: dotted;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.aboutCardSection{
+    
+    margin-top: 30px; 
+    display: flex;
+    flex-wrap: wrap;   
+    margin-right: 40px ;
+}
+
+.aboutCard{
+    width: 45%; 
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: dotted;
+}
+
+.btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 140px;
+    height: 30px;
+    position: relative;
+    font-size: 1rem;  
+}
+
+.btn:hover{
+    background-color:darkviolet;
+}
+
+
+.work{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.aboutCardSection .aboutCard img{
+    width:100%;
+}
+
+.aboutCardSection .aboutCard h3{
+    padding:10px;
+}
